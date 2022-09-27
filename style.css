@@ -13,5 +13,11 @@ body {
 
 .presentacion {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 190px;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
 }
