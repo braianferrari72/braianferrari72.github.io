@@ -23,6 +23,34 @@ body {
     background-color: #0A2647;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.card{
+    background-color: #0A2647;
+    color:#fff;
+    padding: 0;
+}
+
+.card-title-proyecto{
+    font-size: 120%;
+    font-family: 'Geologica', sans-serif; 
+}
+
+.card-title-proyecto a{
+    color: #fff;
+}
+
+.card-title{
+    font-size: 170%;
+    font-family: 'Geologica', sans-serif; 
+}
+
+.card-text{
+    font-family: 'Geologica', sans-serif; 
+}
+
 .offcanvas{
     background-color: #0A2647;
 }
