@@ -20,7 +20,20 @@ body {
     font-size: 120%;
 }
 
+.navbar{
+    background-color: #0A2647;
+}
+
+.offcanvas{
+    background-color: #0A2647;
+}
+
+.offcanvas h5{
+    color: #fff
+}
+
 footer {
+    background-color: #0A2647;
     width: 100%;
     bottom: 0;
     position: fixed;
