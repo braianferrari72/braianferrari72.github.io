@@ -15,8 +15,18 @@ body {
     margin-top: 190px;
 }
 
+.titulo{
+    font-size: 170%; 
+    font-family: 'Geologica', sans-serif; 
+    color:#ffffff;
+}
+
 .titulo-educacion {
     font-size: 120%;
+}
+
+.contenedor{
+    display: flex;
 }
 
 .navbar{
@@ -42,11 +52,6 @@ a:link, a:visited {
     color: #fff;
 }
 
-.card-title{
-    font-size: 170%;
-    font-family: 'Geologica', sans-serif; 
-}
-
 .card-text{
     font-family: 'Geologica', sans-serif; 
 }
@@ -59,7 +64,15 @@ a:link, a:visited {
     color: #fff
 }
 
-footer {
+.footer-fijo{
+    background-color: #0A2647;
+    font-family: 'Geologica', sans-serif;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+footer{
     background-color: #0A2647;
     font-family: 'Geologica', sans-serif;
     width: 100%;
