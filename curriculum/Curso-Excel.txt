@@ -1,0 +1,5 @@
+Referencias relativas y absolutas
+
+Para las referencias absolutas o fijas hemos de anteponer el símbolo $ o atajo teclado F4 en la fórmula
+Cuando arrastremos en una celda para copiar la formula en las restantes , si es una referencia absoluta / fija , esta sera copiada en la formula asignada de cada celda arrastrada
+La referencia Mixta solo antepone un signo peso ($) en la columna o fila
