@@ -64,6 +64,10 @@ a:link, a:visited {
     color: #fff
 }
 
+.container{
+    max-width: 64rem;
+}
+
 .footer-fijo{
     background-color: #0A2647;
     font-family: 'Geologica', sans-serif;
