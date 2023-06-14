@@ -37,6 +37,16 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+.btn{
+    padding: 11px 16px;
+    font-family: 'Geologica', sans-serif; 
+    font-size: 15px;
+}
+
+.btn-outline-light{
+    border-radius: 40px;
+}
+
 .card{
     background-color: #0A2647;
     color:#fff;
