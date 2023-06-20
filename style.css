@@ -2,6 +2,11 @@ nav {
     background-color: #ffffff;
 }
 
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    background-color: #0A2647;
+}
+
 body {
     background-color: #081e38;
     background-position: center center;
@@ -10,15 +15,34 @@ body {
     background-size: cover;
 }
 
+.titulo-seccion{
+    margin-top: 70px;
+    font-size: 360%; 
+    font-family: 'Poppins', sans-serif;
+    color:#ffffff;
+}
+
 .presentacion {
-    text-align: center;
-    margin-top: 190px;
+    margin-top: 10px;
+}
+
+.educacion{
+    margin-top: 38px;
+}
+
+.proyectos{
+    margin-top: 38px;
+}
+
+.habilidades{
+    margin-top: 38px;
 }
 
 .titulo{
-    font-size: 170%; 
-    font-family: 'Geologica', sans-serif; 
+    font-size: 220%; 
+    font-family: 'Poppins', sans-serif;
     color:#ffffff;
+    padding-bottom: 26px;
 }
 
 .titulo-educacion {
@@ -29,17 +53,13 @@ body {
     display: flex;
 }
 
-.navbar{
-    background-color: #0A2647;
-}
-
 a:link, a:visited {
     text-decoration: none;
 }
 
 .btn{
     padding: 11px 16px;
-    font-family: 'Geologica', sans-serif; 
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
 }
 
@@ -53,9 +73,14 @@ a:link, a:visited {
     padding: 0;
 }
 
+.card-body{
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
 .card-title-proyecto{
     font-size: 120%;
-    font-family: 'Geologica', sans-serif; 
+    font-family: 'Poppins', sans-serif;
 }
 
 .card-title-proyecto a{
@@ -63,7 +88,7 @@ a:link, a:visited {
 }
 
 .card-text{
-    font-family: 'Geologica', sans-serif; 
+    font-family: 'Poppins', sans-serif;
 }
 
 .offcanvas{
@@ -80,7 +105,7 @@ a:link, a:visited {
 
 .footer-fijo{
     background-color: #0A2647;
-    font-family: 'Geologica', sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     bottom: 0;
     position: fixed;
@@ -88,6 +113,6 @@ a:link, a:visited {
 
 footer{
     background-color: #0A2647;
-    font-family: 'Geologica', sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 100%;
 }
