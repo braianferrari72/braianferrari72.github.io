@@ -36,9 +36,17 @@ body {
 
 .habilidades{
     margin-top: 38px;
+    margin-bottom: 50px;
 }
 
 .titulo{
+    font-size: 220%; 
+    font-family: 'Poppins', sans-serif;
+    color:#ffffff;
+    padding-bottom: 6px;
+}
+
+.titulo-habilidades{
     font-size: 220%; 
     font-family: 'Poppins', sans-serif;
     color:#ffffff;
@@ -67,10 +75,31 @@ a:link, a:visited {
     border-radius: 40px;
 }
 
+.card-educacion{
+    margin-top: 20px;
+    width: 500px;
+}
+
+.info-educacion{
+    font-family: 'Poppins', sans-serif; 
+    color: #ffffff;
+}
+
+.progress{
+    height: 20px;
+    padding: 0;
+}
+
 .card{
     background-color: #0A2647;
     color:#fff;
     padding: 0;
+}
+
+.card-proyecto{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .card-body{
@@ -79,6 +108,7 @@ a:link, a:visited {
 }
 
 .card-title-proyecto{
+    margin-bottom: 6px;
     font-size: 120%;
     font-family: 'Poppins', sans-serif;
 }
@@ -87,8 +117,16 @@ a:link, a:visited {
     color: #fff;
 }
 
+.card-title-proyecto a:hover {
+    color: #e4e4e4;
+  }
+
 .card-text{
     font-family: 'Poppins', sans-serif;
+}
+
+.tecnologias{
+    margin-top: 17px;
 }
 
 .offcanvas{
@@ -97,6 +135,10 @@ a:link, a:visited {
 
 .offcanvas h5{
     color: #fff
+}
+
+.logo{
+    width: 50px;
 }
 
 .container{
