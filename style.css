@@ -15,6 +15,11 @@ body {
     background-size: cover;
 }
 
+.presentacion {
+    margin-top: 170px;
+    text-align: center;
+}
+
 .titulo-seccion{
     margin-top: 70px;
     font-size: 360%; 
@@ -22,7 +27,7 @@ body {
     color:#ffffff;
 }
 
-.presentacion {
+.descripcion{
     margin-top: 10px;
 }
 
