@@ -20,6 +20,24 @@ body {
     text-align: center;
 }
 
+.texto{
+    margin-top: 30px;
+}
+
+.saludo{
+    font-size: 150%;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color:#ffffff;
+}
+
+.nombre-apellido{
+    line-height: 0.15;
+    font-size: 300%;
+    font-family: 'Poppins', sans-serif;
+    color:#ffffff;
+}
+
 .titulo-seccion{
     margin-top: 80px;
     font-size: 360%; 
@@ -158,6 +176,44 @@ a:link, a:visited {
 
 .container{
     max-width: 64rem;
+}
+
+.form-contacto{
+    margin-top: 85px;
+    align-self: center;
+}
+
+.row>* {
+    padding: 0;
+}
+
+.form-label{
+    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0.3rem;
+}
+
+@media (max-width: 768px) {
+    .form-contacto{
+        width: 90%;
+    } 
+
+    .boton-contacto{
+        width: 90%;
+        margin-top: 0.6rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .form-contacto{
+        width: 75%;
+        
+    }
+
+    .boton-contacto{
+        width: 75%;
+        margin-top: 0.6rem;
+    }
 }
 
 .footer-fijo{
